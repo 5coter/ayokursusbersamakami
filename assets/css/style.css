@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+	font-family: 'Ubuntu', sans-serif !important;
+	font-weight: 300 !important;
+	background-image: url(../img/bgg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.anggota img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 30px 50px 0px 50px;
+	flex-direction: column;
+}
+#video-container {
+	position: relative;
+	width: 80%;
+	height: 80%;
+	max-width: 800px;
+	max-height: 600px;
+}
+#video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+main {
+	width: 100%;
+	min-height: 100vh;
+}
+a {
+	text-decoration: none !important;
+}
+body .bg-success {
+    background-color: red;
+}
+.profile img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.profilee img {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    margin: 10px 0px 10px 0px;
+}
+.profileee img {
+    width: 370px;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px 0px 10px 0px;
+}
+
+.profile h3 {
+	font-size: 50px;
+	font-weight: 400;
+	margin: 20px 0px 8px 0px;
+}
+.profile p {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 20px 0px 8px 0px;
+}
+.profile h4 {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 20px 0px 8px 0px;
+	color: black;
+}
+.profile h5 {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 20px 0px 8px 0px;
+	color: black;
+}
+.social-link a {
+	font-size: 30px;
+}
+.button-link {
+	display: -webkit-box;
+   	display: -webkit-flex;
+    	display: -ms-flexbox;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+}
+.button-link img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+    	border-radius: 100px;
+}
+.button-link p, .badge {
+	font-weight: 1000 !important;
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+main {	
+	max-width: 700px;
+}
+
+}
